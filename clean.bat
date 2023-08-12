@@ -1,5 +1,5 @@
 @echo off
-set PROJECT_NAME=example
+set PROJECT_NAME=main_app
 rem you can set your gcc path
 rem set GCC_PATH=E:\gcc_mcu
 set ROOT_PATH = %cd:\=/%
