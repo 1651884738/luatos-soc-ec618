@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="doxygen_docs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/PLAT/middleware/thirdparty/lwip/doc/doxygen_docs.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
