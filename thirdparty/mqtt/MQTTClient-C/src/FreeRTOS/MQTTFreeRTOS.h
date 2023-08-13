@@ -24,6 +24,11 @@
 #include "sockets.h"
 #include "api.h"
 #include "netdb.h"
+#include "ssl.h"
+#include "net_sockets.h"
+#include "entropy.h"
+#include "ctr_drbg.h"
+
 
 #ifdef FEATURE_MQTT_TLS_ENABLE
 #include "mbedtls/net.h"

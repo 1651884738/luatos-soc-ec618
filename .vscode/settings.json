@@ -60,6 +60,13 @@
     "freertos.h": "c",
     "task.h": "c",
     "mqttclient.h": "c",
-    "app_matt.h": "c"
+    "app_matt.h": "c",
+    "mqttfreertos.h": "c",
+    "ps_lib_api.h": "c",
+    "example_main.h": "c",
+    "fota_nvm.h": "c",
+    "at_http_task.h": "c",
+    "slpman.h": "c",
+    "mqttpacket.h": "c"
   }
 }

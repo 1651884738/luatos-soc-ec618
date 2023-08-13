@@ -9,9 +9,15 @@ target(TARGET_NAME)
     --加入代码和头文件
     add_includedirs("/inc",
                     SDK_TOP.."/thirdparty/cJSON",
+                    SDK_TOP.."/thirdparty/mqtt/MQTTClient-C/src",
+                    SDK_TOP.."/thirdparty/mqtt/MQTTClient-C/src/FreeRTOS",
+                    SDK_TOP.."/thirdparty/mqtt/MQTTPacket/src",
                     {public = true})
     add_files("/src/*.c",
                 SDK_TOP .. "/thirdparty/cJSON/*.c",
+                SDK_TOP .. "/thirdparty/mqtt/MQTTClient-C/src/*.c",
+                SDK_TOP .. "/thirdparty/mqtt/MQTTClient-C/src/FreeRTOS/*.c",
+                SDK_TOP .. "/thirdparty/mqtt/MQTTPacket/src/*.c",
                 {public = true})
 
     --路径可以随便写,可以加任意路径的代码,下面代码等效上方代码
